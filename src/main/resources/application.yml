@@ -1,0 +1,24 @@
+---
+server:
+  port: 9090
+security:
+  basic:
+    enabled: true
+  user:
+    name: config-server
+    password: config-server
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/esm-services/esm-config-repo
+          #username: username
+          #password: password
+  profiles:
+    active:
+    - dev
+      
+            
