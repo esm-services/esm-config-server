@@ -19,7 +19,7 @@
 *.rar
 *.classpath
 *.project
-./mvn
+*.mvn/
 .settings/
 target/
 
