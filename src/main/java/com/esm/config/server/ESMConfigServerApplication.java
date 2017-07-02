@@ -6,9 +6,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class EducationSystemConfigServerApplication {
+public class ESMConfigServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EducationSystemConfigServerApplication.class, args);
+		SpringApplication.run(ESMConfigServerApplication.class, args);
 	}
 }
