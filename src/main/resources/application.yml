@@ -18,6 +18,6 @@ spring:
           uri: https://github.com/esm-services/esm-config-repo
   profiles:
     active:
-    - dev
+    - prod
   application:
     name: config-server
