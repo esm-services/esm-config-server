@@ -18,14 +18,13 @@ spring:
           uri: https://github.com/esm-services/esm-config-repo
   profiles:
     active:
-    - prod
+    - dev
   application:
     name: config-server
     
 logging:
   level:
     root: INFO 
-    org.springframework.web: INFO
     org.springframework.cloud.sleuth: INFO
     org.springframework.security: INFO
   pattern:
