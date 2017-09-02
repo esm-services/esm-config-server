@@ -15,12 +15,12 @@ spring:
         encrypt:
           enabled: false
         git:
-          uri: https://github.com/esm-services/esm-config-repo
+          uri: https://github.com/esm-services/esm-config-repo.git
   profiles:
     active:
-    - dev
+    - prod
   application:
-    name: config-server
+    name: configserver
     
 logging:
   level:
